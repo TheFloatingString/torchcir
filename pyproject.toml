@@ -1,0 +1,20 @@
+[project]
+name = "torchcir"
+version = "0.1.0"
+description = "Torch classes and imports for CIR data"
+readme = "README.md"
+authors = [
+	{ email = "" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pytest>=8.3.4",
+    "torch>=2.6.0",
+]
+
+[project.scripts]
+torchcir = "torchcir:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
