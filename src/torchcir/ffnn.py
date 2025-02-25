@@ -1,7 +1,7 @@
 import torch
 
 
-class CNN(torch.nn.module):
+class FFNN(torch.nn.Module):
     def __init__(self):
         super().__init__(self)
 
